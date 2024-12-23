@@ -13,7 +13,9 @@ try {
     words.push( formatWord );
   } );
 
-  const jsonData = JSON.stringify( words, null, 2 );
+  json = { words };
+
+  const jsonData = JSON.stringify( json, null, 2 );
 
   fs.writeFileSync( process.env.OUTPUT_FILE, jsonData, "utf8", ( error, data ) => {
     if ( error ) console.error( error );
