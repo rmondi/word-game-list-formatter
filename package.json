@@ -1,0 +1,19 @@
+{
+  "name": "words-list-format",
+  "version": "1.0.0",
+  "description": "This package allows you to create a list of words in JSON format from a source text file, intended for use in a word game. The source file should contain one word per line. The package performs the following steps for each word: Accent removal: 1. Accented characters are replaced with their non-accented equivalents. 2. Uppercasing: Each word is converted to uppercase letters. The final result is a JSON file containing a list of words, optimized for use in word games such as crosswords, Scrabble, or similar games.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rémy Mondi",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmondi/word-game-list-formatter"
+},
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

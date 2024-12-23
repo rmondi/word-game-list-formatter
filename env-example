@@ -1,0 +1,2 @@
+INPUT_FILE="path/to/inputFile.txt"
+OUTPUT_FILE="path/to/outputFile.json"
